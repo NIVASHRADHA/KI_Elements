@@ -1,0 +1,17 @@
+Please find my answers to the questions in TASK-2: OPEN QUESTIONS below:
+
+Question 1: 1. What are typical measures for the quality of an audio file?
+
+Answer: 
+      (i) Bit rate: It denotes the amount of data encoded per unit of time in the audio file. Higher bitrate generally leads to better quality, but more data is used to represent the audio.
+      (ii) Sample rate in Hertz :  It denotes the number of samples of audio taken per second. Higher sample rates capture more detail, hence better audio quality. (Same concept can be associated with bit depth)
+      (iii) Signal to Noise Ratio (SNR) in db: It compares the level of the desired signal to the level of the noise. The higher the SNR, the better the quality.
+      (iv) Other metrics proved successful in literature: SI-SDR (Scale-Invariant Signal-to-Distortion Ratio), SI-SNR (Scale-Invariant Signal-to-Noise Ratio), and dynamic range
+      
+      Specifically for the speech signals the following metrics can be used:
+      (i) STOI (Short-Time Objective Intelligibility):  It compares the short-time segments of the clean and degraded speech signals.
+      (ii) PESQ (Perceptual Evaluation of Speech Quality):  It compares the original and processed signals based on human perception to provide a quality score.
+      (iii) MUSHRA (MUltiple Stimuli with Hidden Reference and Anchor): It is a method used in subjective audio quality evaluation tests
+
+Question 2: What would be your approach/method to make them comparable independent of the original audio recording setup?
+
