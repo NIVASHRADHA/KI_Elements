@@ -10,5 +10,10 @@ In this folder, please find all the necessary files for Task_1.
 **snr.py** - This file consists of the algorithm to calculate SNR in dB of an audio file.<br>
 Other **.wav** files have been used to test these algorithms
 
+**Running the files for Task_1:** <br>
+Step 1: Run py main.py in the terminal <br>
+Step 2: From the list, choose a subtask to perform. For example, 1 for Speech Ratio calculation. <br>
+Step 3: Enter the path of the desired audio including the extension, for the task.<br>
+
 ## Task_2
 Please find the answers to the Task_2 in this file
