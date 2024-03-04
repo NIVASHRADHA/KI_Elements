@@ -15,3 +15,17 @@ Answer:
 
 Question 2: What would be your approach/method to make them comparable independent of the original audio recording setup?
 
+      Answer: 
+            To make audio files comparable and independent of the original recording setup, following approaches can be used:
+            (i) Normalizing audio levels: Adjusting the volume levels of different audio files to ensure they have similar loudness levels
+            (ii) Converting to a common format: Converting all audio files to a common format and bitrate 
+            (iii) Applying standard procedure to all audio files
+            (iv) Using objective measures given in the first answer
+
+Question 3: Can you see any issues with your method (e.g. for specific features or the features you implemented in the previous task)?
+
+      Answer:
+            In the speech ratio calculation, the VAD package might need the internet to download packages. To combat this, a project can utilize offline VAD or 
+            separation packages such as demucs.  SNR calculation is based on the signal power. This might be affected by a noisy signal (but appropriate SNR value 
+            will be calculated.)
+
